@@ -1,8 +1,11 @@
 ---
 layout: post
 title: "Welcome to My Blog!"
+subtitle: "Starting my journey in the world of blogging"
 date: 2024-10-01 12:00:00 +0000
-categories: blog
+author: al3xx
+header-img: "assets/images/banners/home.jpeg"
+catalog: true
 tags:
     - welcome
     - introduction

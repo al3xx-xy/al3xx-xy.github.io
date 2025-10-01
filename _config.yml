@@ -1,5 +1,12 @@
 # Welcome to Jekyll!
 #
+# About Theme
+#
+# Yet another theme for elegant writers with modern flat style and beautiful
+# night/dark mode.
+#
+# Website: https://github.com/jeffreytse/jekyll-theme-yat
+#
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that.
 #
@@ -10,6 +17,10 @@
 title: al3xx's Blog
 email: soulaymanbouabid11@gmail.com
 author: al3xx
+
+# Copyright setting
+copyright: "Copyright © 2017-{currentYear} {author}"
+
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my personal blog! Here I share my thoughts, experiences,
   and insights about technology, programming, and life. Join me on this
@@ -17,16 +28,22 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://al3xx-xy.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+favicon: "" # the favicon for your site
 
-# Theme - using GitHub Pages compatible theme
-theme: minima
+# Yat date format
+yat:
+  date_format: "%b %d, %Y"
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
 
 # Exclude from processing.
 exclude:
