@@ -34,6 +34,9 @@ favicon: "" # the favicon for your site
 yat:
   date_format: "%b %d, %Y"
 
+# Force rebuild to apply YAT theme
+theme_applied: true
+
 # Build settings
 markdown: kramdown
 kramdown:
